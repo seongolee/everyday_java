@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.level1;
 import java.util.Scanner;
 
 public class P18108 {
