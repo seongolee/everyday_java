@@ -1,4 +1,4 @@
-package baekjoon.level1;
+package baekjoon.step1;
 import java.util.Scanner;
 
 //킹, 퀸, 룩, 비숍, 나이트,  
