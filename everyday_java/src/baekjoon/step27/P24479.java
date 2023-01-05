@@ -3,7 +3,7 @@ package baekjoon.step27;
 import java.io.*;
 import java.util.*;
 
-// 깊이 우선 탐색 1
+// 깊이 우선 탐색 2
 public class P24479 {
     static ArrayList<ArrayList<Integer>> graph;
     static int[] seq;
@@ -35,7 +35,7 @@ public class P24479 {
         }
 
         for(int i=1; i<n+1; i++) {
-            Collections.sort(graph.get(i));
+            Collections.sort(graph.get(i), Collections.reverseOrder());
         }
 
         seq[start] = 1;
